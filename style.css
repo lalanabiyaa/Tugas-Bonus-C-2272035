@@ -1,0 +1,58 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Helvetica', sans-serif;
+   background-color: #202020;
+}
+
+.header {
+   width: 70%;
+   height: 100%;
+}
+
+.logo {
+   width: 50px;
+   height: 50px;
+   vertical-align: middle;
+   display: inline-block;
+}
+
+.app-name {
+   vertical-align: middle;
+   display: inline-block;
+   margin-left: 2px;
+   font-size: 24px;
+   font-weight: bold;
+   white-space: nowrap;
+   color: white;
+}
+
+.icon-header {
+   position: fixed;
+   right: 10px;
+   white-space: nowrap;
+   display: inline-block;
+}
+
+.icon-header i {
+   margin-left: 30px;
+   display: inline-block;
+   color: white;
+   margin-top: 17px;
+}
+
+.feature-side {
+   width: 5%;
+   height: calc(100% - 5px);
+   background: #202020;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.feature-side i {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   color: white;
+}
